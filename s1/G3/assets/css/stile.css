@@ -1,0 +1,97 @@
+/* IMPOSTAZIONI GENERALI */
+html {
+    font-size: 62.5%;
+    font-size: 1.5rem;
+}
+
+/* HEADER */
+header {
+    background-color: rgb(28, 134, 196);
+    text-align: center;
+    border-top: 40px solid rgb(28, 134, 196);
+    border-bottom: 40px solid rgb(28, 134, 196);
+    outline: 4px solid rgb(15, 83, 122);
+    font-family: monospace;
+}
+
+header {
+    color: white;
+}
+
+span {
+    background-color: white;
+}
+
+span {
+    color: rgb(28, 134, 196);
+}
+
+header {
+    font-style: italic
+}
+
+
+
+/* MAIN */
+h2 {
+    text-align: center;
+    color: rgb(10, 105, 143);
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font: bold 1.7rem Raleway;
+}
+
+figure {
+    text-align: center;
+    padding: 5vh;
+}
+
+figure img {
+    border: 8px solid white;
+    outline: 1px solid #d3d3d3;
+}
+
+blockquote {
+    background-color: #d1cfcf;
+    border-radius: 20px;
+    padding: 1em;
+    text-align: right;
+    font-style: italic;
+}
+
+h3 {
+    font-weight: bold;
+    margin-top: 1.5em;
+
+}
+
+/* ELEMENTI NEL MAIN */
+a {
+    color: orangered;
+}
+
+mark {
+    background-color: rgb(28, 134, 196);
+    color: white;
+}
+
+ul {
+    margin-left: 1.5em;
+}
+
+dd {
+    margin-left: 1.5em;
+}
+
+/* FOOTER */
+footer {
+    background-color: rgb(92, 92, 92);
+    border-top: 5px solid rgb(28, 134, 196);
+    text-align: center;
+    color: white;
+}
+
+kbd {
+    color: yellow;
+}
