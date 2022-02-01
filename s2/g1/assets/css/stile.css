@@ -11,29 +11,6 @@ body {
 * {box-sizing: border-box;}
 hr {display: none;} /* rimuove l'elemento */
 
-/* BUTTON FIXED */
-.toTop {
-    position: fixed;
-    bottom: 10px;
-    right: -7px;
-}
-.social {
-    position: fixed;
-    bottom: 20vh;
-    right: -7px;
-}
-.toTop a, .social a {
-    color: #c77ea2;
-    font-size: 4rem;
-    display: block;
-}
-    .social a {
-        color: rgb(45, 101, 185);
-    }
-.toTop .far, .social .far {
-    background: white;
-}
-
 /* HEADER */
 header {
     background: rgb(0,160,198);
@@ -45,9 +22,6 @@ header {
     box-shadow: 0 3px 3px #444;
     margin-bottom: 1.5em;
     padding: 2em 1.5em;
-    position: sticky;
-    top: 0;
-    z-index: 10;
 }
 header div img {
     margin-bottom: 20px;
@@ -57,12 +31,7 @@ header nav ul {
 }
 header nav li {
     list-style: none;
-    display: inline-block;
-    margin-right: 10px;
 }
-    header nav li:last-child {
-        margin-right: 0;
-    }
 header nav li a {
     color: white;
     text-decoration: none;
@@ -83,9 +52,8 @@ main {
 }
 section { 
     background-color: #e3e3e3;
-    padding: 2.5em 1em 1em;
+    padding: 1em;
     margin-bottom: 2em;
-    position: relative;
 }
 section h2 {
     text-align: center;
@@ -94,14 +62,20 @@ section h2 {
     font-weight: bold;
     text-transform: uppercase;
     margin-bottom: 1em;
-    background-color: #a3a3a3;
-    position: absolute;
-    top: -0.5em;
-    left: 5%;
-    padding: 0 1em;
-    box-shadow: 1px 1px 2px #333;
-
 }
+.table{
+    display: table;
+    margin: 0 auto;
+}
+ul#horizontal-list{
+    min-width: 0;
+    list-style: none;
+    padding-top: 20px;
+}
+ul#horizontal-list li{
+    display: inline;
+}
+
 
 /* ELEMENTI NEL MAIN - ARTICLE */
 h1 {
@@ -116,18 +90,6 @@ p, address, ul, ol, dl, blockquote {
 h1 + p {
     color: #a0a0a0;
 }
-.imgLeft {
-    float: left;
-    margin-right: 20px;
-    border: 4px solid #00A0C6;
-    outline: 4px solid #a02571;
-    padding: 3px;
-}
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
 ul, ol {
     margin-left: 2em;
 }
@@ -146,8 +108,42 @@ code {
 }
 iframe {
     width: 100%;
+    height: auto;
     margin-bottom: 2em;
     border-radius: 20px;
+}
+
+#calendario{
+    float: right;
+    font-size: 6rem;
+    position: fixed;
+    padding-left: 37rem;
+    padding-top: 35rem;
+    color:rgb(7, 131, 161);
+}
+#plus{
+    float: right;
+    font-size: 6rem;
+    position: fixed;
+    padding-left: 37rem;
+    padding-top: 27rem ;
+    color: rgb(7, 131, 161);
+}
+#up{
+    float: right;
+    font-size: 6rem;
+    position: fixed;
+    padding-left: 37rem;
+    padding-top: 45rem ;
+    color: rgb(243, 140, 157);
+}
+
+#badge{
+    float: left;
+    margin: 10px;
+    padding: 6px;
+    border: 6px solid rgb(9, 87, 177);
+    outline: 6px solid rgb(160, 89, 226);
 }
 
 /* TABELLE */
@@ -227,46 +223,4 @@ footer {
 }
 footer a {
     color: fuchsia;
-}
-
-/*MEDIAQUERI*/
-
-@media screen and (min-width:515px) 
-{article h1 {
-    text-align: center;
-font-size: 2.6rem;
-}
-}
-@media screen and (min-width: 320px)
-{main article ul{
-    padding: 4rem;
-}
-
-@media screen and (min-width: 320px)
-{main article li{
-    padding: 3rem;
-}
-
-table{
-    margin: auto;
-}
-
-@media screen and (max-width: 2560px)
-{iframe{
-max-width: fit-content;
-max-height: fit-content;
-display: block; margin: auto; 
-border-bottom: 5rem;}
-
-@media screen and (max-width: 2560px)
-{iframe{
-height: auto;
-margin-bottom: 5rem;
-}
-
-@media screen and(min-width: 374px)
-{iframe{
-    height: auto;
-}
-    
 }
