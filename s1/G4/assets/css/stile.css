@@ -11,14 +11,20 @@ padding: 10px;}
     }
     nav{color: white;}
     body{font-family: 'Montserrat', sans-serif;
-font-family: 'Poppins', sans-serif;}
+font-family: 'Poppins', sans-serif; font-size: large;}
 
 /* MAIN */
 main{background-color: white;
     padding: 40px;
     border: 1px solid grey;
 border-bottom: 2px solid rgb(63, 63, 63);}
-
+h1{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+span{
+    
+}
 /* ELEMENTI NEL MAIN - ARTICLE */
 iframe{
     border-radius: 10%;

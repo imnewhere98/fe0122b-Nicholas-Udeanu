@@ -2,24 +2,26 @@
 <html lang="it">
     <head>
         <meta charset="utf-8">
-        <link rel="stylesheet" href="assets/css/all.css">
-        <link rel="stylesheet" href="assets/css/reset.css">
-        <link rel="stylesheet" href="assets/css/stile.css">
         <title>Sviluppo di una pagina web - Blog Epicode</title>
         <meta name="description" content="Primi passi operativi per creare un modello di pagina HTML per un post. Scopri come iniziare in modo facile.">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;1,200&family=Poppins:wght@200;300&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/all.css">
+        <link rel="stylesheet" href="assets/css/reset.css">
+        <link rel="stylesheet" href="assets/css/stile.css">
     </head>
     <body>
+        <i id="calendario" class="far fa-calendar-alt"></i>
+        <i id="plus" class="far fa-plus-square"></i>
+        <i id="up" class="far fa-caret-square-up"></i>
         <header>
             <div>
                 <img src="assets/img/logo.svg" alt="logo del blog" width="250" height="60">
                 <p>Epicode - Il blog dei developers</p>
             </div>
-            <nav>
-                <ul>
+            <nav class="table">
+                <ul id=" horizontal-list">
                     <li><a href="index.html" title="Home Page">Home</a></li>
                     <li><a href="articoli.html" title="Elenco degli articoli tecnici pubblicati">Articoli</a></li>
                     <li><a href="contatti.html" title="Candidati inviando un tuo cv">Lavora con noi</a></li>
@@ -32,10 +34,11 @@
 
         <main>
             <article>
-                <h1 class="titolo1">Come creare un template per i post</h1>
-                <p>di Mario Rossi - <span> pubblicato il 25-10-2020</span></p>
-               
-    
+                
+                
+                <h1>Come creare un template per i post</h1>
+                <p><i class="fas fa-pen-square"></i> di Mario Rossi - <span><i class="fas fa-clock"></i> pubblicato il 25-10-2020</span></p>
+                <img id="badge" src="assets/img/badge.png" alt="">
                 <p>La prima cosa da fare è suddividere in blocchi logici la pagina, identificando le <strong>parti comuni</strong> da applicare a tutte le pagine</p>
     
                 <p>Le varie aree saranno quindi suddivise in:</p>
@@ -113,22 +116,22 @@
     
             <aside>
                 <h2>Articoli correlati</h2>
-                <div class="s1">
+                <div>
                     <a href="post2.html" title="Passaggi guidati per validare correttamente tutto il codice sviluppato">Validare il codice HTML</a>
-                    <p>Categoria: develop</p>
-                    <p id="01">Data: 18-9-2020</p>
+                    <p><i class="fas fa-tag"></i> Categoria: develop</p>
+                    <p><i class="fas fa-calendar-alt"></i> Data: 18-9-2020</p>
                 </div>
     
                 <div>
                     <a href="post3.html" title="Passaggi guidati per controllare e correggere tutto il codice sviluppato">Correggere la sintassi</a>
-                    <p>Categoria: develop</p>
-                    <p>Data: 16-9-2020</p>
+                    <p><i class="fas fa-tag"></i> Categoria: develop</p>
+                    <p><i class="fas fa-calendar-alt"></i> Data: 16-9-2020</p>
                 </div>
     
                 <div>
                     <a href="post4.html" title="Consigli ed approcci per ridurre il peso della pagina">Meno Kb nella pagina</a>
-                    <p>Categoria: ottimizzazione</p>
-                    <p>Data: 30-9-2020</p>
+                    <p><i class="fas fa-tag"></i> Categoria: ottimizzazione</p>
+                    <p><i class="fas fa-calendar-alt"></i> Data: 30-9-2020</p>
                 </div>
             </aside>
         </main>
