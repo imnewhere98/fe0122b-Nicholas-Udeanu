@@ -339,10 +339,10 @@ footer a {
         flex-direction: row;
         justify-content: space-evenly;
     }
-}
 
-@media screen and (min-width:500px)
-{
+
+
+
     .flexdue{
         display: flex;
         flex-direction: row;
@@ -353,8 +353,10 @@ footer a {
 @media screen and (min-width:800px)
 {
     .flexdue {
-        display: block;
-        float: right;
+     flex-direction: column-reverse;
         
+    }
+    main{
+        display: flex;
     }
 }
