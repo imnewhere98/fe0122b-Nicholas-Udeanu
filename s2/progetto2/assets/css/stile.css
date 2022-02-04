@@ -11,8 +11,13 @@ html {
 
 
 /* HEADER */
-@media screen and (min-width:1200px)
-{
+.back{
+    background-color: white;
+    box-shadow:0 3px 10px #d3d3d3;
+    height: 6vh;
+}
+
+
 .header {
     display: flex;
     justify-content: space-evenly;
@@ -315,6 +320,70 @@ html {
 
 .social {
     margin-top: 15px;
+}
+
+/*Contatti*/
+
+.contatti-main{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.contatti-h1{
+    margin-left: 40rem;
+    font-size: 4rem;
+    
+}
+
+
+.dati{
+    display: flex;
+    flex-direction: column;
+    
+   
+}
+
+#dati{
+height: 2rem;
+width:30rem;
+margin-left: 11.5rem;
+margin-top: 2rem;
+}
+#dati1{
+    height: 5rem;
+    width: 30rem;
+    margin-left: 11.5rem;
+    margin-top: 2rem;
+
+}
+
+#send{
+    outline: none;
+    border: none;
+    margin-bottom: 5rem;
+    margin-top: 10rem;
+    background-color: cornflowerblue;
+    background-image: linear-gradient(to right, #6cc1e2, #392f7a);
+    height: 3rem;
+    width: 20rem;
+    font-size: 1.9rem;
+    color: white;
+}
+
+#h2-titolo{
+    font-size: 2.5rem;
+    margin-top: 6rem;
+    padding-bottom: 1rem;
+}
+.indirizzo{
+font-size: 1.2rem;
+padding-top: 3rem;
+}
+
+.lavora{
+    font-size: 1;
 }
 
 /* RESPONSIVE */
