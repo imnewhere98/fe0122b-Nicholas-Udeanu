@@ -1,0 +1,199 @@
+/* IMPOSTAZIONI GENERALI */
+#body {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 1.5rem;
+}
+
+html {
+    width: 100%;
+}
+
+
+
+/* HEADER */
+
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 15px;
+}
+
+.lista {
+    padding: 7px;
+    color: gray;
+}
+
+#registrati {
+    outline: none;
+    border: none;
+    background-color: cornflowerblue;
+    background-image: linear-gradient(to right, #6cc1e2, #392f7a);
+    padding: 4px;
+    font-size: 1.9rem;
+    color: white;
+
+
+}
+
+/* MAIN */
+#blocco1-parte1 {
+    background-image: url(../images/banner.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 20rem;
+    padding-top: 3rem;
+    padding-left: 0rem;
+}
+
+.testo-header {
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    font-size: 23px;
+    padding-top: 1rem;
+    padding-left: 22px;
+    line-height: 1.5rem;
+}
+
+.titolo1 {
+    color: white;
+    font-size: 70px;
+    padding: 23px;
+    text-shadow: 2px 2px 4px black;
+
+}
+
+#chiediinfo {
+    outline: none;
+    border: none;
+    background-color: cornflowerblue;
+    background-image: linear-gradient(to right, #6cc1e2, #392f7a);
+    padding: 8px;
+    font-size: 1.9rem;
+}
+
+.a {
+    text-decoration: none;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+
+
+}
+
+.h2 {
+    font-size: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+@media screen and (min-width:1200px) {
+    .colonne {
+        display: flex;
+        justify-content: center;
+        padding-top: 70px;
+
+    }
+
+    .w3-container {
+        border: 1px solid green;
+        margin-right: 3rem;
+        width: 20rem;
+        height: 20rem;
+
+    }
+
+    .h2-primo {
+        font-size: 35px;
+        text-align: center;
+        padding-bottom: 15px;
+    }
+
+    .h2-secondo {
+        font-size: 35px;
+        text-align: center;
+        padding-bottom: 15px;
+    }
+
+    .h2-terzo {
+        font-size: 35px;
+        text-align: center;
+        padding-bottom: 15px;
+    }
+
+    .computer {
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        
+    }
+}
+
+.blue {
+    background-color: #0c0633;
+    padding: 60px;
+    color: white;
+    background-position: center;
+    padding-bottom: 80px;
+
+}
+
+.h1-scrivici {
+    font-size: 40px;
+    padding-bottom: 50px;
+}
+
+.test-scrivici {
+    font-size: 18px;
+}
+
+.scrivici {
+    outline: none;
+    border: none;
+    background-color: cornflowerblue;
+    background-image: linear-gradient(to right, #6cc1e2, #392f7a);
+    padding: 8px;
+    font-size: 1.9rem;
+}
+
+#scrivici {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+
+}
+
+.h3-titolo-primo {
+    font-size: 35px;
+    padding-left: 4rem;
+    
+
+}
+
+.p-sotto {
+    font-size: 15px;
+    display: inline-block;
+    
+
+}
+
+.elemento-destra {
+    padding-left: 3rem;
+}
+#lista-due{
+    list-style-type: none
+}
+
+
+
+
+/* FOOTER */
+.footer-home{
+    height: 40vh;
+    background-color: rgb(238,238,238);
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* RESPONSIVE */
