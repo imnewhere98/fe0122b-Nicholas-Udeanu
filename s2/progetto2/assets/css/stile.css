@@ -386,6 +386,81 @@ padding-top: 3rem;
     font-size: 1;
 }
 
+/*chi siamo*/
+
+#titolo-cs{
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+
+}
+#testo-cs{
+    text-align: center;
+    font-size: 1rem;
+}
+
+.foto-pc{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    padding: 2rem;
+}
+
+.foto-sinistra{
+    display: flex;
+    flex-direction: column;
+}
+
+.foto-destra{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+}
+
+#d-s{
+    text-align: center;
+margin-top: 1rem;
+}
+#d-r{
+    text-align: center;
+    margin-top: 1rem;;
+}
+
+#tabella-titoli{
+    background-color:#91b9e4;
+}
+
+#tabella-prima, #tabella-quattro{
+    background-color: #d2dce7;
+}
+table, th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+    background-position: center;
+    text-align: center;
+    
+  }
+
+  .aria{
+      height: 13rem;
+      margin: 4rem;
+
+}
+
+#table1{
+    table-layout: fixed;
+}
+
+#prezzo-corso{
+    text-align: center;
+    margin-bottom: 3rem;
+    font-size: 2rem;
+   
+}
+
+     
+
 /* RESPONSIVE */
 
 #chiediinfo:hover{
