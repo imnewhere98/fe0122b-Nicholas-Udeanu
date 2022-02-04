@@ -9,7 +9,8 @@
   <link rel="stylesheet" href="assets/css/reset.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+  <script src="https://code.iconify.design/2/2.1.2/iconify.min.js"></script>
 
 </head>
 <title>Epicode - Formazione Web Developer</title>
@@ -20,10 +21,10 @@
     <div class="header">
       <div><img src="assets/images/logo.png"></div>
       <nav>
-        <a class="lista">Home</a>
-        <a class="lista">Chi siamo</a>
-        <a class="lista">Contatti</a>
-        <button id="registrati"><a class="a" href="#">Registati</a></button>
+        <a href="index.html" class="lista">Home</a>
+        <a href="chi-siamo.html" class="lista">Chi siamo</a>
+        <a href="contatti.html" class="lista">Contatti</a>
+        <button id="registrati"><a class="a1" href="#">Registati</a></button>
       </nav>
     </div>
   </header>
@@ -57,33 +58,34 @@
         Il lavoro che andrai a fare è veramente figo.
       </p>
       <div class="colonne">
-        <br>
+        <br><span id="commento" class="iconify" data-icon="la:comment-dots-solid"></span>
         <div class="w3-container">
+
           <h2 class="h2-primo">
             Tutti ti cercheranno
           </h2>
-          <p>
+          <p class="spegazione">
             Sono 30.000 in italia le posizioni di developer scoperte, scegli quella che ti stimola di piu.
           </p>
         </div>
-        <br>
+        <br><span id="position" class="iconify" data-icon="gis:position-o"></span>
         <div class="w3-container">
           <h2 class="h2-secondo">
             Potrai lavorare dove vuoi
           </h2>
           <br>
-          <p>
+          <p class="spegazione">
             Non serve lavorare in uffico per essere creatori di profotti digitali, e le aziende lo sanno, lavora da
             casa, in riva al maere o in montagna.
           </p>
-          <br>
         </div>
+        <br><i id="job" class="fas fa-user-tie"></i>
         <div class="w3-container">
           <h2 class="h2-terzo">
             Azienda, freelance o startup
           </h2>
           <br>
-          <p>
+          <p class="spegazione">
             scegli piu facilmente la carriera e il rapporto di lavoro che ti piace di piu, in qualsiasi momento.
           </p>
           <br>
@@ -106,15 +108,15 @@
       <img src="assets/images/notebook.jpg">
       <div class="elemento-destra">
         <ul id="lista-due">
-          <li>
-            <h3 class="h3-titolo-primo"></i>Chi sarai</h3>
+          <li><i id="smile-contento" class="far fa-laugh"></i>
+            <h3 class="h3-titolo-primo">Chi sarai</h3>
             <br>
             <p class="p-sotto">
               il creatore delle app che usi tutti i giorni
             </p>
           </li>
           <br>
-          <li>
+          <li><span id="sunglass" class="iconify" data-icon="emojione-monotone:smiling-face-with-sunglasses"></span>
             <h3 class="h3-titolo-primo">Chi diventerai</h3>
             <br>
             <p class="p-sotto">
@@ -122,7 +124,8 @@
             </p>
           </li>
           <br>
-          <li>
+          <li><span id="senza-emozione" class="iconify" data-icon="emojione-monotone:expressionless-face"></span>
+
             <h3 class="h3-titolo-primo">
               Chi non sarai
             </h3> <br>
@@ -136,24 +139,36 @@
     </article>
   </main>
   <footer class="footer-home">
-    <div>
-      <h4>
-        Chi siamo
-      </h4> <br>
-      <p>
-        Epicode School nasce con l'obiettivo di rivoluzionare la formazione in ambito tech.
-      </p>
-    </div>
-    <div>
-      <h3>Ti piace ciò che vedi? <br> Condividilo con i tuoi amici!</h3>
-    </div>
-    <div>
-      <h3>Iscriviti alla nostra newsletter</h3><br>
-      <input type="text" id="mail" value=""> <br>
-      <button><a href="#">Va bene!</a></button>
+    <div class="footer-due">
+      <div class="footer-testo">
+        <h4>
+          Chi siamo
+        </h4> <br>
+        <p id="testo-no">
+          Epicode School nasce con l'obiettivo di <br> rivoluzionare la formazione in ambito <br> tech.
+        </p>
+      </div>
+      <div class="footer-testo">
+        <h3>Ti piace ciò che vedi? <br> Condividilo con i tuoi amici!</h3>
+        <div class="social">
+          <i id="fb" class="fab fa-facebook-square"></i>
+          <i id="linken" class="fab fa-linkedin"></i>
+          <span id="ig" class="iconify" data-icon="ant-design:instagram-filled"></span>
+        </div>
+      </div>
+      <div class="footer-testo">
+        <h3>Iscriviti alla nostra newsletter</h3><br>
+        
+  <div  class="container" >
+    <input id="mail" type="email">
+  </div>
 
+  <div >
+    <a href="ziogigi"><input class="bottone-footer" type="submit" value="Va Bene!"></a>
+  </div>
+      </div>
     </div>
-    <div>
+    <div class="coda">
       <p style="text-align: center;">&copy; 2021 Epicode Web Developer school - via Appia 1, 00100 Roma(RM) - Tel.
         06-12345678</p>
     </div>
