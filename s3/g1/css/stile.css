@@ -1,0 +1,17 @@
+header{
+  background-color: aliceblue;
+}
+.logo {
+  text-align: center; }
+
+  ul{
+    text-align: center;}
+    ul li{
+      display:inline;
+      padding: 10px;
+    }
+.showcase-content{
+  text-align: center;
+}
+p{
+}

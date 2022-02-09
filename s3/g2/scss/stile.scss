@@ -1,0 +1,56 @@
+/*aggiunte*/
+
+body {
+    font-family: "Lato", sans-serif;
+  }
+
+/*Header*/
+
+#header {
+    height: 100%; 
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    padding-top: 60px;
+  }
+  ul{
+    list-style-type: none;
+  }
+
+  #header a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+
+  }
+  #header a:hover {
+    color: #f1f1f1;
+  }
+  
+  #header a:hover {
+    color: #f1f1f1;
+  }
+  @media screen and (max-height: 450px) {
+    #header {padding-top: 15px;}
+    #header a {font-size: 18px;}
+  }
+
+  /*main*/
+
+  h1{
+      text-align: center;
+  }
+  
+  #main {
+    padding-top: 5px;
+    margin-left: 12rem;
+    display: flex;
+    flex-direction: row;
+    justify-content:right;
+    text-align: left;
+  }
+
