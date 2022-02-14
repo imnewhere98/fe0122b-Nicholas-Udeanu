@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java Script </title>
+    <script src="js/script.js"></script>
+    <img id="myImage" src="pic_bulbon.gif">
+</head>
+
+<body>
+    <div>
+        <h1 id="colore">il magnifico mondo di javascript</h1>
+
+        <button onclick="changeColor()">clicca e cambia colore</button>
+    </div>
+
+
+
+    <div>
+        <button onclick="document.getElementById('myImage').src='pic_bulbon.gif'">Accendi</button>
+
+        <img id="myImage" src="pic_bulboff.gif" style="width:100px">
+
+        <button onclick="document.getElementById('myImage').src='pic_bulboff.gif'">Spegni</button>
+    </div>
+
+
+</body>
+
+</html>
