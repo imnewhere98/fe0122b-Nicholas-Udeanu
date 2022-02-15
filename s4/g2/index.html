@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <p id="demo"></p>
+    <p id="numero"></p>
+
+    <script>
+        /*let + somma*/
+        var x = 5;
+        var y = 6;
+        var z = x + y;
+        console.log(z);
+    
+        /*let + sottrazione*/
+        {
+        let x = 10;
+        let y = 20;
+        let z = x - y;
+        window.alert(z);
+        }
+
+        window.alert(x);
+
+
+        /*const*/
+        const broccoli = 10;
+        console.log(broccoli);
+        {
+        const broccoli = 2;
+        console.log(broccoli);
+        }
+        console.log(broccoli);
+        
+        /*boleano in stinga*/
+        {
+        let a = 10;
+        let b = 9;
+
+        document.getElementById("demo").innerHTML = Boolean(a > b);
+        }
+        {
+        let c = 11;
+        let d = 10;
+
+        document.getElementById("numero").innerHTML = Boolean(c < d);
+        }
+
+    </script>
+
+</body>
+</html>
