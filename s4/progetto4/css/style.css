@@ -1,0 +1,56 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: 'Mukta', sans-serif;
+  font-weight: normal;
+
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+#tastierino {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  min-height: 50vh;
+  grid-template-columns: repeat(4, 100px);
+  grid-template-rows: minmax(120px, auto) repeat(5, 100px);
+}
+
+#tastierino>button {
+  cursor: pointer;
+  font-size: 2rem;
+  border: 1px solid white;
+  outline: none;
+  background-color: rgba(2, 101, 214, 0.75);
+}
+
+#tastierino>button:hover {
+  background-color: rgba(255, 255, 255, .9);
+}
+
+.span-quattro {
+  grid-column: span 4;
+}
+
+#display {
+  grid-column: 1 / -1;
+  background-color: rgba(0, 0, 0, .75);
+  padding: 20px;
+  width: 398px;
+  word-wrap: break-word;
+  word-break: break-all;
+  text-align: end;
+  color: white;
+  font-size: 2.5rem;
+
+}
