@@ -1,0 +1,61 @@
+#todo-wrap,
+#todo-wrap * {
+  font-family: 'Architects Daughter', cursive;
+}
+
+#todo-wrap input,
+.todo-item {
+  border: 0;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+
+#todo-wrap {
+  background: #f2f2f2;
+  max-width: auto;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+
+#todo-wrap h1 {
+  text-align: center;
+  font-size: 3rem;
+}
+
+
+#todo-add,
+.todo-row {
+  display: flex;
+  align-items: center;
+}
+
+#todo-item,
+.todo-item {
+  flex-grow: 1;
+  background: #fff;
+  box-shadow: 1px 1px rgba(43, 43, 43, 0.459);
+}
+
+.todo-item.todo-ok {
+  background: #cffff4;
+}
+
+#todo-save,
+.todo-del,
+.todo-done {
+  color: #fff;
+  cursor: pointer;
+}
+
+.todo-del {
+  background: #ed3636;
+}
+
+#todo-save,
+.todo-done {
+  background: #2781cf;
+  box-shadow: 1px 1px rgba(43, 43, 43, 0.459);
+}
